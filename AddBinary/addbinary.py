@@ -42,13 +42,3 @@ class Solution:
             intsum += 2**(len(bin_str) - i - 1)
 
         return intsum
-
-
-
-
-
-
-
-
-
-print(Solution().addBinary("1010", "1011"))
