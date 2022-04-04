@@ -32,6 +32,7 @@ Explanation: The input binary string 11111111111111111111111111111101 has a tota
 """
 from functools import reduce
 
+
 class Solution:
     def hammingWeight(self, n: int) -> int:
         return reduce(lambda a, b: int(a) + int(b), str(bin(n))[2:])
