@@ -26,12 +26,12 @@ Explanation: The last word is "joyboy" with length 6.
 
 class Solution:
     def lengthOfLastWord(self, s: str) -> int:
-        n = 0
+        length_of_last_word = 0
         s = s.strip()
         for i in range(len(s) - 1, -1, -1):
             if s[i] == ' ':
                 break
 
-            n += 1
+            length_of_last_word += 1
 
-        return n
+        return length_of_last_word
