@@ -54,4 +54,19 @@ from typing import List
 
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:
-        pass
+        n_elements = len(nums)
+        for i, num in enumerate(nums):
+            if num == val:
+                nums[i] = '_'
+                n_elements -= 1
+            else:
+                nums[i] = str(num)
+
+        nums.sort()
+        return n_elements
+
+
+if __name__ == '__main__':
+    arr = [3, 2, 2, 3]
+    print(Solution().removeElement(arr, 3))
+    print(arr)
