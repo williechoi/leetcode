@@ -104,4 +104,4 @@ class Solution:
             if int(answer) <= 2 ** 31 - 1:
                 return int(answer)
             else:
-                return 2 ** 31 - 1 
+                return 2 ** 31 - 1
