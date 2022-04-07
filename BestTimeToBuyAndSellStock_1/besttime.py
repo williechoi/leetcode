@@ -35,7 +35,3 @@ class Solution:
 
             sell += 1
         return max_profit
-
-
-if __name__ == '__main__':
-    print(Solution().maxProfit([7, 1, 5, 3, 6, 4]))
