@@ -21,12 +21,16 @@ class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         if n == 1:
             return ["()"]
+        elif n == 2:
+            return ["(())", "()()"]
         else:
-            return []
+            answer = self.generateParenthesis(n-1)
+            new_answer = [*answer]
+            return new_answer
 
 
 if __name__ == '__main__':
-    print('hello world')
+    print(Solution().generateParenthesis(5))
 
 
 
