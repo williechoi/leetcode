@@ -37,3 +37,4 @@ class Solution:
     def hammingWeight(self, n: int) -> int:
         return reduce(lambda a, b: int(a) + int(b), str(bin(n))[2:])
 
+
