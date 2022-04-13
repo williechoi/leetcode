@@ -42,11 +42,8 @@ class Solution:
                 addone = (l1_val + l2_val) >= 10
 
             # 다음 노드로 이동한다.
-            if l1:
-                l1 = l1.next
-
-            if l2:
-                l2 = l2.next
+            l1 = l1.next if l1 else l1
+            l2 = l2.next if l2 else l2
             
             # 처음이라면, answerNode = newNode이다.
             if answerNode is None:
