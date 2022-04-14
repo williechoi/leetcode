@@ -32,13 +32,3 @@ class Solution:
 if __name__ == '__main__':
     print(Solution().generateParenthesis(5))
     print(Solution().generateParenthesis(2))
-
-
-
-
-
-
-
-
-
-
