@@ -39,4 +39,5 @@ class Solution:
 if __name__ == "__main__":
     assert Solution().longestPalindrome("babac") == "bab"
     assert Solution().longestPalindrome("cbbd") == "bb"
+    assert Solution().longestPalindrome("abcbab4") == "abcba"
 
