@@ -1,5 +1,6 @@
 # Leetcode Problems
-Preparation for **coding tests**    
+
+Here is a collection of codes that I wrote in preparation for **coding tests**    
 Each folder represents a leetcode problem and its solution.  
 Please note that there are some incomplete solutions, but most problems contain solutions.     
 When tackling leetcode problems, I try to write codes with my own thoughts and logics,   
