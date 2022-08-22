@@ -27,11 +27,11 @@ class Solution:
                 hpos -= 1
                 tpos += 1
 
-            return s[hpos+1:tpos]
+            return s[hpos + 1:tpos]
 
         result = ''
         for i in range(0, len(s) - 1):
-            result = max(result, expandstr(i, i+1), expandstr(i, i+2), key=len)
+            result = max(result, expandstr(i, i + 1), expandstr(i, i + 2), key=len)
 
         return result
 
@@ -41,4 +41,3 @@ if __name__ == "__main__":
     assert Solution().longestPalindrome("cbbd") == "bb"
     assert Solution().longestPalindrome("abcbab4") == "abcba"
     assert Solution().longestPalindrome("12345432123") == "123454321"
-
