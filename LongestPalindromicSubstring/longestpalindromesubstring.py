@@ -41,3 +41,4 @@ if __name__ == "__main__":
     assert Solution().longestPalindrome("cbbd") == "bb"
     assert Solution().longestPalindrome("abcbab4") == "abcba"
     assert Solution().longestPalindrome("12345432123") == "123454321"
+    assert Solution().longestPalindrome("abacaba34") == "abacaba"
