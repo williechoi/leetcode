@@ -32,3 +32,11 @@ class Solution:
             xor ^= nums[i]
 
         return xor
+
+
+if __name__ == "__main__":
+    example1 = [2, 2, 2, 2, 4, 4, 5, 5, 3, 3, 3, 7, 7, 7, 7]
+    example2 = [4, 1, 2, 1, 2]
+    print(Solution().singleNumber(example1))    # 3
+    print(Solution().singleNumber(example2))    # 4
+
