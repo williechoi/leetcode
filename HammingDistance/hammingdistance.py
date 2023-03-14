@@ -32,5 +32,7 @@ class Solution:
 if __name__ == "__main__":
     example1 = (4, 5)   # 0100 0101 -> 1
     example2 = (7, 8)   # 0111 1000 -> 4
+    example3 = (15, 4)  # 1111 0100 -> 3
     print(Solution().hammingDistance(example1[0], example1[1]))
     print(Solution().hammingDistance(example2[0], example2[1]))
+    print(Solution().hammingDistance(example3[0], example3[1]))
